@@ -13,7 +13,7 @@ Alternativas a PHP: Python, Ruby, Java, NodeJS*/
 // Hola mundo en PHP
 echo'Hola mundo';
 // Hola mundo con HTML
-echo'<h1>Hola mundo con HTML desde PHP</h1>';
+echo'<h1>Hola mundo con HTML desde PHP3</h1>';
 
 
 
