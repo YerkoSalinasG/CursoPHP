@@ -16,7 +16,17 @@
 
 		// Básicamente una variable es un contenedor de información, puedo guardar cualquier dato dentro de ella.-
 
-		// Tipos de variables
+		/* 
+		Tipos de variables (Datos)
+		Entero Int/intiger 98
+		Decimales float 2,3
+		String "texto"
+		Boolean true or false
+		null (nno lleva ningun contenido dentro)
+		Array o vectores
+		Objetos
+		 */
+
 		$variableTexto = "texto";
 		$variableNumero = 44;
 		$variableBoolean = true;
@@ -24,6 +34,9 @@
 		echo '<h2>'.$variableTexto.'</h2>';
 		echo '<h2>'.$variableNumero.'</h2>';
 		echo '<h2>'.$variableBoolean.'</h2>';
+
+		//para reconocer que tipo de datos es una variable se puede usar la funcion gettype
+		echo gettype($variableNumero);
 
 	?>
 </body>
