@@ -38,6 +38,9 @@
 		//para reconocer que tipo de datos es una variable se puede usar la funcion gettype
 		echo gettype($variableNumero);
 
+		// debug variables de gran utilidad en arrays
+		$miNombre = "Yerko Salinas Gómez";
+		var_dump($miNombre); //integerstring(20) "Yerko Salinas Gómez"
 	?>
 </body>
 </html>
